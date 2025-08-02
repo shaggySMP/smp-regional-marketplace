@@ -1,0 +1,39 @@
+{
+  "name": "smp.com-marketplace",
+  "version": "1.0.0",
+  "description": "Regional marketplace application for Latvia, Estonia, and Lithuania",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "./start-all.sh",
+    "test": "./test-all.sh",
+    "test:backend": "cd backend && npm test",
+    "test:mobile": "cd mobile && npm test",
+    "test:admin": "cd admin && npm test",
+    "install:all": "cd backend && npm install && cd ../mobile && npm install && cd ../admin && npm install && cd ..",
+    "build:mobile": "cd mobile && npm run build",
+    "build:admin": "cd admin && npm run build"
+  },
+  "keywords": [
+    "marketplace",
+    "facebook-marketplace",
+    "latvia",
+    "estonia",
+    "lithuania",
+    "react-native",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "smp.com Development Team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/smp.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/smp.com/issues"
+  },
+  "homepage": "https://github.com/your-username/smp.com#readme"
+}
